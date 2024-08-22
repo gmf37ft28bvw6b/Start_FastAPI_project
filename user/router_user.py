@@ -29,6 +29,12 @@ async def get_user(id):
 
 
 
+
+
+
+
+
+
 @router_user.post("/user")
 async def create_user(new_user:CreateUserDto):
     new_user_id = randint(1,200)
